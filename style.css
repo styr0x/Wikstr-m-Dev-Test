@@ -1,0 +1,522 @@
+@import url("https://use.typekit.net/tdi0zsq.css");
+
+body {
+    background: transparent url('assets/andy-beales-BjcGdM-mjL0-unsplash.png') 60% 0% repeat-x;
+    background-color: #E8E8E8;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.parent {
+    font-family: "trade-gothic-next";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin-top: 350px;
+
+}
+
+.header-content {
+    text-align: center;
+    width: 550px;
+    
+}
+
+.start-text {
+    font-size: 7.5rem;
+    font-weight: bold;
+    font-family: "ff-good-web-pro";
+}
+
+.header-content-text {
+    margin-top: 45px;
+    font-size: 1.125rem;
+}
+
+.header-content-contactbutton {
+    margin-top: 30px;
+    border: none;
+    width: 350px;
+    height: 75px;
+    background-color: #0E765A;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.header-contact-btn-text {
+    margin-left: 1.875rem;
+}
+
+.info-cards {
+
+    margin-top: 110px;
+    display: flex;
+    column-gap: 25px;
+
+}
+
+.info-card {
+
+    height: 600px;
+    display: grid;
+    background-color: #FFFFFF;
+    width: 300px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.info-card-icon {
+    margin-top: 100px;
+    justify-self: center;
+    position: absolute;
+    font-size: 4.375rem;
+    color: #717171;
+}
+
+.info-card-text {
+    height: 300px;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 75px;
+}
+
+.card-label {
+    color: white;
+    background-color: #717171;
+    height: 62px;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.slanted-top {
+    margin-top: 200px;
+    background-color: blue;
+    height: 50px;
+    width: 1800px;
+    clip-path: polygon(0 0, 54% 0, 56% 100%, 0% 100%);
+    background-color: white;
+    transform: translate(-100px,0.1px);
+
+}
+
+.contact {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    
+}
+
+
+
+.green-side {
+    background-color: #0E765A;
+    width: 100px;
+    height: 850px;
+    z-index: 1;
+    transform: translate(0,-50px);
+    position: absolute;
+}
+
+.left {
+    margin-left: 320px;
+}
+
+.contact-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.form {
+    display: grid;
+}
+
+.info-input, .message-input {
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    background-color: #E8E8E8;
+}
+
+.info-input {
+    width: 475px;
+    height: 45px;
+}
+
+.message-input {
+    resize: none;
+    width: 475px;
+    height: 120px;
+}
+
+.info-question {
+    font-size: 1.18rem;
+    font-weight: bold;
+}
+
+.checkbox {
+    vertical-align: middle;
+    appearance: none;
+    background-color: #E8E8E8;
+    height: 25px;
+    width: 25px;
+    outline: none;
+}
+.checkbox:hover {
+    background-color: #9e9e9e;
+}
+.checkbox:checked {
+    background-color: #0E765A;
+}
+
+.checkbox-text {
+    color: #767676;
+    font-size: 0.93rem;
+}
+
+.send-btn {
+    margin-top: 60px;
+    width: 145px;
+    height: 50px;
+    background-color: #0E765A;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.contact-card {
+    display: grid;
+    margin-top: 195px;
+    background-color: #0E765A;
+    height: 380px;
+    width: 1000px;
+    margin-left: 10vw;
+    
+}
+
+.contact-card-wrapper {
+    margin-top: 30px;
+}
+
+.contact-info {
+    margin-top: 65px;
+    margin-left: 70px;
+    
+
+}
+
+.contact-card-header, .contact-card-info {
+
+    color: white;
+}
+
+.contact-card-header {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+.contact-card-info {
+    font-size: 1.2rem;
+    line-height: 0px;
+    
+
+}
+
+.contact-icon {
+    font-size: 10rem;
+    color: white;
+    clip-path: inset(0 5% 0 5%);
+    transform: translate(480px,-108%);
+}
+
+.contact-card-btn {
+    text-align: left;
+    width: 475px;
+    height: 65px;
+    border: none;
+    font-size: 1.875rem;
+}
+
+.button-icon {
+    margin-top: 2vh;
+    margin-left: -75px;
+    display: flex;
+}
+
+.contact-btn-text {
+    margin-left: 100px;
+    
+}
+
+.contact-phone-icon {
+    margin-left: 30px;
+}
+
+.footer {
+    margin-top: 145px;
+}
+
+.footer, .footer-mobile {
+
+    height: 290px;
+    width: 100%;
+    background-color: #717171;
+}
+
+.footer-text {
+
+    font-family: "ff-good-web-pro";
+    color: white;
+    font-size: 1.7rem;
+}
+
+.footer-content {
+    margin: 100px;
+}
+
+.social-btn {
+    color: white;
+    font-size: 4rem;
+}
+
+.scbtn2 {
+    margin-left: 80px;
+}
+
+.footer-mobile {
+    display: none;
+    text-align: center;
+    height: 200px;
+}
+
+.separator {
+    margin-top: 230px;
+    display: none;
+
+}
+
+.button-icon-mobile {
+    display: none;
+}
+
+@media (min-width: 1921px) {
+    .slanted-top {
+        margin-top: 200px;
+        background-color: blue;
+        height: 50px;
+        width: 2500px;
+        clip-path: polygon(0 0, 54% 0, 56% 100%, 0% 100%);
+        background-color: white;
+        transform: translate(-450px,0.1px);
+    
+    }
+}
+
+
+@media (max-width: 1400px) {
+
+    body {
+
+        background: transparent url('assets/andy-beales-BjcGdM-mjL0-unsplash@2x.png') 23% 0% repeat-x;
+        overflow-x: hidden;
+
+    }
+
+    .header {
+        margin-top: 100px;
+    }
+
+
+
+    .info-cards {
+        margin-top: 110px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 900px;
+        justify-content: center;
+        row-gap: 50px;
+        transform: translate(0,-75px);
+    }
+
+    .info-card {
+
+    }
+
+    .left {
+        margin-left: 25%;
+    }
+
+    .green-side {
+
+        display: none;
+    }
+
+    
+    .contact {
+
+        flex-wrap: wrap;
+        transform: translate(0,-300px);
+
+
+    }
+
+    .contact-card {
+        width: 100vw;
+        margin-left: 0vw;
+
+
+    }
+
+    .contact-card-wrapper {
+        width: 100vw;
+        margin-left: 30vw;
+    }
+
+
+
+    .contact-icon {
+        font-size: 10rem;
+        color: white;
+        clip-path: inset(0 5% 0 5%);
+        transform: translate(480px,-108%);
+    }
+    
+    .contact-card-btn {
+        text-align: left;
+        width: 475px;
+        height: 65px;
+        border: none;
+        font-size: 1.875rem;
+    }
+
+    .footer {
+        display: none;
+
+    }
+
+    .footer-mobile {
+        display: block;
+        min-height: 250px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    html,body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        margin-top: 200px;
+    }
+
+
+    .header-content-text {
+        font-size: 1rem;
+        padding: 75px;
+
+    }
+
+    .info-cards {
+        margin-top: 350px;
+        background-color: #9e9e9e;
+    }
+
+
+    .contact {
+
+        flex-wrap: wrap;
+
+
+    }
+
+    .info-card {
+        width: 100vw;
+        height: 450px;
+
+    }
+
+    .info-card-text {
+        text-align: center;
+    }
+
+    .slanted-top {
+
+        display: none;
+    }
+
+    .green-side {
+        display: none;
+    }
+
+    .left {
+        margin-left: 10%;
+    }
+
+    .info-input, .message-input {
+        width: 250px;
+    }
+
+    .contact-card-wrapper {
+        width: 100vw;
+        margin-left: 0px;
+    }
+
+
+    .contact-card {
+        width: 100vw;
+        text-align: center;
+
+    }
+
+    .contact-info {
+        margin-top: 45px;
+        margin-left: -6vw;
+        
+    }
+
+    .contact-icon {
+        display: none !important;
+    }
+
+
+    .button-icon {
+        display: none;
+    }
+
+    .button-icon-mobile {
+
+        display: inline;
+    }
+
+    .contact-card-btn {
+        margin-top: 50px;
+        width: 300px;
+    }
+
+    .contact-btn-text {
+        margin-left: 0px;
+    }
+
+    .separator {
+        display: block;
+    }
+
+    .footer-text {
+        font-size: 1.5rem;
+    }
+
+    .social-btn {
+        color: white;
+        font-size: 3rem;
+    }
+}
